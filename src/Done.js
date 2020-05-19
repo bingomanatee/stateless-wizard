@@ -50,7 +50,7 @@ export default ({ order, children }) => {
   if (currentSection === order) {
     return (
       <div>
-        <h2>Wizard Done</h2>
+        <p>Wizard Done</p>
       </div>
     );
   }

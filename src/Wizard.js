@@ -5,7 +5,7 @@ import Stage from "./Stage";
 import ValidationEngine from "./ValidationEngine";
 import Framework from "./Framework";
 import Action from "./Action";
-import Email from "./Email";
+import Subject from "./Subject";
 import Done from "./Done";
 
 export default () => (
@@ -34,7 +34,7 @@ export default () => (
         label="Confirm Data Subject Email Address"
         title="Subject"
       >
-        <Email order={2} />
+        <Subject order={2} />
       </Stage>
       <Stage order={3} label="Done" title="Done">
         <Done order={3} />
